@@ -38,7 +38,7 @@
 }
 
   a {
-    color: #FFF;
+    color: #DDD;
     text-decoration: none;
     font-size: .7em;
 }
@@ -51,7 +51,7 @@
 
   /* placeholder text colour */
   ::-webkit-input-placeholder {
-     color: #FFF;
+     color: #EEE;
      font-size: .9em;
 }
   :-moz-placeholder {
@@ -106,13 +106,13 @@
 
   #content {
     position: absolute;
-    height: 55vh;
+    height: 65vh;
     width: 30vw;
     margin-top: 20vh;
     margin-left: 35vw;
     text-align: center;
     z-index: 3;
-    border: solid 5px #FFF
+    border: solid .25em #FFF
 }
 
   #header {
@@ -133,6 +133,13 @@
     font-size: 1em;
     color: #FFF;
 }
+  img.email, img.password {
+    position: absolute;
+    width: 1.25em;
+    margin-left: .6em;
+    margin-top:.6em;
+    z-index: -1;
+}
 
   .shell {
     height: 6vh;
@@ -140,12 +147,23 @@
     text-align: center;
     background-color: rgba(255,255,255,.35);
     border: none;
-    margin-bottom: 5px;
+    margin-bottom: .3125em;
+    border-radius: 2px;
+    border: 0;
     color: #FFF;
   }
 
   .shell.focus {
-    border-bottom: solid 2px #969696;
+}
+
+  input[type=submit] {
+    height: 6vh;
+    width: 17.5vw;
+    border-radius: 2px;
+    margin-top: 15px;
+    border: 0;
+    color: #FFF;
+    background: rgba(100,125,255,.45);
 }
 
 
