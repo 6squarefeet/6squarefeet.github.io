@@ -426,14 +426,15 @@ li a:hover:not(.active) {
 .column {
   margin-top: 15vh;
   float: left;
-  width: 50vw;
+  width: 40vw;
   height: 50vh;
 }
 
 .column img{
-  max-width: 50vw;
+  max-width: 40vw;
+  width: auto;
   height: auto;
-  max-height: 30vh;
+  max-height: 35vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -446,8 +447,11 @@ li a:hover:not(.active) {
 
 .column h2{
   text-align: left;
-  margin-left: 15vw;
   font-size: 2em;
+}
+
+.row {
+  margin-left: 15vw;
 }
 
 .row:after {
