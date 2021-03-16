@@ -325,14 +325,18 @@ li a:hover:not(.active) {
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 20vw;
+  width: auto;
+  max-width: 20vw;
   height: auto;
+  max-height: 30vh;
   margin: 10px;
   padding: 20px;
 }
 .flex-container img {
-  width: 100%;
+  width: auto;
+  max-width:20vw;
   height: auto;
+  max-height: 25vh;
   opacity: 0.5;
 }
 
