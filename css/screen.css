@@ -465,7 +465,11 @@ li a:hover:not(.active) {
 }
 
 /* media query */
-
+  @media all and (min-width: 1600px){
+    .aboutinfo h1{
+      margin-bottom: 5vh;
+    }
+  }
 
   @media all and (min-width: 1450px){
 
@@ -579,6 +583,25 @@ li a:hover:not(.active) {
 }
 
   @media all and (max-width: 999px){
+    li {
+      font-size: .4em;
+    }
+    .bottombar h2{
+      font-size: 1em;
+    }
+    .bottombar a{
+      font-size: .1em;
+    }
+    .aboutinfo h1{
+      width: 80vw;
+    }
+    .aboutinfo h2{
+      width: 80vw;
+    }
+    .aboutinfo img{
+      display:none;
+    }
+
   ::-webkit-input-placeholder {
      color: #EEE;
      font-size: .8em;
