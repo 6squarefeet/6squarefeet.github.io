@@ -337,7 +337,7 @@ li a:hover:not(.active) {
   max-width:20vw;
   height: auto;
   max-height: 25vh;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
  img:hover {
